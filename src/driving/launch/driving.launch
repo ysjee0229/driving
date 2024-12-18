@@ -1,0 +1,8 @@
+<launch>
+    # ROS DEMO SELECTION
+    <arg name="demo" default="video"/>
+
+    <node name="driving" type="driving" pkg="driving" output="screen">
+        <param name="demo_method" value="$(arg demo)" />
+    </node>
+</launch>

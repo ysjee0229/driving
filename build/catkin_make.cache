@@ -1,0 +1,2 @@
+driving:usb_cam
+-DCATKIN_DEVEL_PREFIX=/home/a/project_ws/devel -DCMAKE_INSTALL_PREFIX=/home/a/project_ws/install -G Unix Makefiles
